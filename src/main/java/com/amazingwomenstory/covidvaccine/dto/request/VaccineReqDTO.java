@@ -19,7 +19,7 @@ public class VaccineReqDTO {
 
     private Integer numberOfDoses;
 
-    private Integer timingOfDoses;
+    private String timingOfDoses;
 
     private RouteOfAdministration routeOfAdministration;
 

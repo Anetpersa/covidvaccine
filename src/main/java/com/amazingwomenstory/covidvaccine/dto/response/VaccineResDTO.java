@@ -21,7 +21,7 @@ public class VaccineResDTO {
 
     private Integer numberOfDoses;
 
-    private Integer timingOfDoses;
+    private String timingOfDoses;
 
     private RouteOfAdministration routeOfAdministration;
 

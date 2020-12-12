@@ -1,0 +1,10 @@
+--
+-- Dumping data for table `covidvaccine_vaccine`
+--
+
+LOCK TABLES `covidvaccine_vaccine` WRITE;
+/*!40000 ALTER TABLE `covidvaccine_vaccine` DISABLE KEYS */;
+INSERT INTO `covidvaccine_vaccine` VALUES(19,'COVID_VACCINE_BACKEND','2020-08-01 11:44:47.187000','COVID_VACCINE_BACKEND','2020-08-02 11:44:48.395000','This is vaccine developed by BioNTech, Fosun Pharma, Pfizer companies. The vaccine platform used was RNA and type of candidate vaccine is 3 LNP-mRNAs.', 95, 0, 2, 43000, 'INTRAMUSCULAR', 'PAIN', '21 days', 'BioNTech/Fosun Pharma/Pfizer'),(20,'COVID_VACCINE_BACKEND','2020-08-01 11:44:47.187000','COVID_VACCINE_BACKEND','2020-08-02 11:44:48.395000','This is vaccine developed by Moderna/NIAID companies. The vaccine platform used was RNA and type of candidate vaccine is LNP-encapsulated mRNA .', 90, 0, 2, 30000, 'INTRADERMAL', 'MUSCLE_ACHES', '28 days', 'Moderna and NIAID'),(21,'COVID_VACCINE_BACKEND','2020-08-01 11:44:47.187000','COVID_VACCINE_BACKEND','2020-08-02 11:44:48.395000','This is vaccine developed by University of Oxford and AstraZeneca company. The vaccine platform used was Non-Replicating Viral Vector and type of candidate vaccine is ChAdOx1-S.', 93, 0, 2, 25000, 'INTRAMUSCULAR', 'PAIN', '28 days', 'University of Oxford/AstraZeneca'),(22,'COVID_VACCINE_BACKEND','2020-08-01 11:44:47.187000','COVID_VACCINE_BACKEND','2020-08-02 11:44:48.395000','This is vaccine developed by Sinovac company. The inactivated virus was used as vaccine platform.', 85, 0, 1, 14000, 'ORAL', 'FEVER', '14 days', 'Sinovac'),(23,'COVID_VACCINE_BACKEND','2020-08-01 11:44:47.187000','COVID_VACCINE_BACKEND','2020-08-02 11:44:48.395000','This is vaccine developed by Beijing Institute of Biological Products and Sinopharm company. The inactivated virus was used as vaccine platform.', 91, 0, 3, 29000, 'INTRAVENOUS', 'SWELLING', '21 days', 'Beijing Institute of Biological Products/Sinopharm ');
+
+/*!40000 ALTER TABLE `covidvaccine_vaccine` ENABLE KEYS */;
+UNLOCK TABLES;

@@ -43,14 +43,14 @@ public abstract class AbstractEntity {
     @PrePersist
     public void onPrePersist() {
         this.createdOn = new Date();
-        this.createdBy = this.modifiedBy == null ? EntityModifier.COVIDVACCIE_BACKEND.name() : this.createdBy;
+        this.createdBy = this.modifiedBy == null ? EntityModifier.COVID_VACCINE_BACKEND.name() : this.createdBy;
         this.modifiedOn = new Date();
-        this.modifiedBy = this.modifiedBy == null ? EntityModifier.COVIDVACCIE_BACKEND.name() : this.modifiedBy;
+        this.modifiedBy = this.modifiedBy == null ? EntityModifier.COVID_VACCINE_BACKEND.name() : this.modifiedBy;
     }
 
     @PreUpdate
     public void onPreUpdate() {
         this.modifiedOn = new Date();
-        this.modifiedBy = this.modifiedBy == null ? EntityModifier.COVIDVACCIE_BACKEND.name() : this.modifiedBy;
+        this.modifiedBy = this.modifiedBy == null ? EntityModifier.COVID_VACCINE_BACKEND.name() : this.modifiedBy;
     }
 }

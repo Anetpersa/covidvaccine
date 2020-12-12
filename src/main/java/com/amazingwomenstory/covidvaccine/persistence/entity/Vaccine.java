@@ -32,7 +32,7 @@ public class Vaccine extends AbstractEntity{
     private Integer numberOfDoses;
 
     @Column(name = "timing_of_doses", nullable = false)
-    private Integer timingOfDoses;
+    private String timingOfDoses;
 
     @CsvBindByName
     @Enumerated(EnumType.STRING)
